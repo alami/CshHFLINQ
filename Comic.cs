@@ -34,4 +34,29 @@ namespace CshHFLINQ
             { 97, 35.25M },
         };
     }
+
+    class ComicsTest
+    {
+        static public void Action()
+        {
+            IEnumerable<Comic> mostExpensive =
+                from comic in Comic.Catalog
+                where Comic.Prices[comic.Issue] > 500
+                orderby Comic.Prices[comic.Issue] descending
+                select comic;
+            foreach (Comic comic in mostExpensive)
+            {
+                Console.WriteLine($"{comic} is worth {Comic.Prices[comic.Issue]:c}");
+            }
+        }
+    }
+
+    class ComicsReviewTest
+    {
+        static public void Action()
+        {
+            var whatAmI = new { Color = "Blue", Flavor = "Tasty", Height = 37 };
+            Console.WriteLine(whatAmI);
+        }
+    }
 }

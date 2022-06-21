@@ -10,12 +10,12 @@ namespace CshHFLINQ
     {
         static void Main(string[] args)
         {
-            //LinqTest.Action();
+            AddSub.Test();                  //  .SkipWhile(i=>i<95))
             //ComicsTest.Action();
-            //SandwichTest.Action();
+            //Sandwich.Test();             //   numbers.SkipWhile((q,i) =>i<(length-5)))
             //PrintWhenGettingTest.Action();
             //ComicsReviewTest.Action();
-            GoFishTest.Action();
+            //GoFishTest.Action();
             Console.ReadKey(true);
         }
     }

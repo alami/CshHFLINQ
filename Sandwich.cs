@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace CshHFLINQ
 {
-    class SandwichTest
+    class Sandwich
     {
-        static public void Action ()
+        static public void Test ()
         {
             var sandwiches = new[] { "ham and cheese", "salami with mayo",
                                      "turkey and swiss", "chicken cutlet" };
