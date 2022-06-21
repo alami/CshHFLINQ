@@ -45,10 +45,16 @@
   <ItemGroup>
     <Compile Include="AddSubtract.cs" />
     <Compile Include="Comic.cs" />
+    <Compile Include="ComicsReviewTest.cs" />
     <Compile Include="ComicsTest.cs" />
+    <Compile Include="Critics.cs" />
+    <Compile Include="GoFishTest.cs" />
     <Compile Include="LinqTest.cs" />
+    <Compile Include="PrintWhenGettingTest.cs" />
+    <Compile Include="PrintWhenGetting.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Review.cs" />
     <Compile Include="SandwichTest.cs" />
   </ItemGroup>
   <ItemGroup>

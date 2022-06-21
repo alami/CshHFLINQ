@@ -27,7 +27,7 @@ namespace CshHFLINQ
             Console.WriteLine($@"
                 All for {length} / {numbers.Count()} numbers: {String.Join(", ", numbers.Take(length))}
                 The first 5 numbers: {String.Join(", ", numbers.Take(5))}
-                The last 5 numbers: {String.Join(", ", numbers.SkipWhile( (q,i) =>i<(length-5)))}
+                The last 5 numbers: {String.Join(", ", numbers.SkipWhile((q,i) =>i<(length-5)))}
                 The first is {numbers.First()} and the last is {numbers.Last()}
                 The smallest is {numbers.Min()}, and the biggest is {numbers.Max()}
                 The sum is {numbers.Sum()}

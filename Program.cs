@@ -12,7 +12,10 @@ namespace CshHFLINQ
         {
             //LinqTest.Action();
             //ComicsTest.Action();
-            SandwichTest.Action();
+            //SandwichTest.Action();
+            //PrintWhenGettingTest.Action();
+            //ComicsReviewTest.Action();
+            GoFishTest.Action();
             Console.ReadKey(true);
         }
     }
