@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddSubtract.cs" />
+    <Compile Include="Comic.cs" />
+    <Compile Include="ComicsTest.cs" />
+    <Compile Include="LinqTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

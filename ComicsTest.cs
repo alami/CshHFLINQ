@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace CshHFLINQ
 {
-    internal class Program
+    class ComicsTest
     {
-        static void Main(string[] args)
+        static public void Action ()
         {
-            LinqTest.Action();
-            //ComicsTest.Action();
-            Console.ReadKey(true);
+
         }
     }
 }
