@@ -11,7 +11,8 @@ namespace CshHFLINQ
         static void Main(string[] args)
         {
             //LinqTest.Action();
-            ComicsTest.Action();
+            //ComicsTest.Action();
+            SandwichTest.Action();
             Console.ReadKey(true);
         }
     }
