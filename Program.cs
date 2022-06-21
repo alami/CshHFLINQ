@@ -10,8 +10,8 @@ namespace CshHFLINQ
     {
         static void Main(string[] args)
         {
-            LinqTest.Action();
-            //ComicsTest.Action();
+            //LinqTest.Action();
+            ComicsTest.Action();
             Console.ReadKey(true);
         }
     }
